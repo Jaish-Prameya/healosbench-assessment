@@ -1,0 +1,26 @@
+{
+  "name": "@test-evals/llm",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc -b"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "@google/genai": "^1.32.0",
+    "@test-evals/shared": "workspace:*",
+    "openai": "^6.11.0"
+  },
+  "devDependencies": {
+    "@test-evals/config": "workspace:*",
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  }
+}

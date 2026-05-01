@@ -29,6 +29,8 @@
     "check-types": "turbo check-types",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
+    "eval": "bun run scripts/eval.ts",
+    "test": "bun test",
     "db:push": "turbo -F @test-evals/db db:push",
     "db:studio": "turbo -F @test-evals/db db:studio",
     "db:generate": "turbo -F @test-evals/db db:generate",
@@ -36,6 +38,9 @@
   },
   "dependencies": {
     "@test-evals/env": "workspace:*",
+    "@test-evals/db": "workspace:*",
+    "@test-evals/llm": "workspace:*",
+    "@test-evals/shared": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },

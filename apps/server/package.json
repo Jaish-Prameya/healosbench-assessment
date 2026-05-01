@@ -13,9 +13,14 @@
     "@test-evals/auth": "workspace:*",
     "@test-evals/db": "workspace:*",
     "@test-evals/env": "workspace:*",
+    "@test-evals/llm": "workspace:*",
+    "@test-evals/shared": "workspace:*",
+    "@google/genai": "^1.32.0",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.1",
     "hono": "^4.8.2",
+    "openai": "^6.11.0",
     "zod": "catalog:"
   },
   "devDependencies": {

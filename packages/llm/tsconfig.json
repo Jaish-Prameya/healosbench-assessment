@@ -1,0 +1,9 @@
+{
+  "extends": "@test-evals/config/tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "outDir": "dist"
+  }
+}
